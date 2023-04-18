@@ -1,0 +1,15 @@
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/bin/Debug/net7.0/BasicThreadSyncPratice
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/bin/Debug/net7.0/BasicThreadSyncPratice.deps.json
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/bin/Debug/net7.0/BasicThreadSyncPratice.runtimeconfig.json
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/bin/Debug/net7.0/BasicThreadSyncPratice.dll
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/bin/Debug/net7.0/BasicThreadSyncPratice.pdb
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/BasicThreadSyncPratice.csproj.AssemblyReference.cache
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/BasicThreadSyncPratice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/BasicThreadSyncPratice.AssemblyInfoInputs.cache
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/BasicThreadSyncPratice.AssemblyInfo.cs
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/BasicThreadSyncPratice.csproj.CoreCompileInputs.cache
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/BasicThreadSyncPratice.dll
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/refint/BasicThreadSyncPratice.dll
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/BasicThreadSyncPratice.pdb
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/BasicThreadSyncPratice.genruntimeconfig.cache
+/Users/ayoublaroub/projects/BasicThreadSyncPratice/BasicThreadSyncPratice/obj/Debug/net7.0/ref/BasicThreadSyncPratice.dll

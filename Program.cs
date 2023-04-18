@@ -3,42 +3,32 @@ using System.Threading;
 
 class Program
 {
-    static int _number = 60;
+    static int counter = 0;
     static object _lock = new object();
 
-    static void Main()
+static void Main()
     {
-        // Creating two new threads, one for printing stars and one for printing hashes
-        Thread starsThread = new Thread(PrintStars);
-        Thread hashesThread = new Thread(PrintHashes);
+        // Create two threads - 'increaseThread' and 'decreaseThread'
+        Thread increaseThread = new Thread(Increase);
+        Thread decreaseThread = new Thread(Decrease);
 
-        // Starting the two threads
-        starsThread.Start();
-        hashesThread.Start();
-
-        // Joining the two threads to the main thread
-        starsThread.Join();
-        hashesThread.Join();
+        increaseThread.Start();
+        decreaseThread.Start();
+        increaseThread.Join();
+        decreaseThread.Join();
     }
 
-    // Method to print stars
-    static void PrintStars()
+    // Method for increasing the counter
+    static void Increase()
     {
         while (true)
         {
             Monitor.Enter(_lock);
             try
             {
-                // Looping through the number of stars to print
-                for (int i = 0; i < _number; i++)
-                {
-                    Console.Write("*");
-                }
-
-                Console.Write(_number);
-                Console.WriteLine();
-                _number += 60;
+                counter += 2;
                 Thread.Sleep(1000);
+                Console.WriteLine($"Increasing counter to {counter}");
             }
             finally
             {
@@ -47,23 +37,17 @@ class Program
         }
     }
 
-    // Method to print hashes
-    static void PrintHashes()
+    // Method for decreasing the counter
+    static void Decrease()
     {
         while (true)
         {
             Monitor.Enter(_lock);
             try
             {
-                // Looping through the number of hashes to print
-                for (int i = 0; i < _number; i++)
-                {
-                    Console.Write("#");
-                }
-                Console.Write(_number);
-                Console.WriteLine();
-                _number += 60;
+                counter -= 1;
                 Thread.Sleep(1000);
+                Console.WriteLine($"Decreasing counter to {counter}");
             }
             finally
             {
